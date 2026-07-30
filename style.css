@@ -1,0 +1,20 @@
+.hero-image{
+    background-color: #F5A623;
+    height: 352px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-text{
+    color: #181310;
+    text-align: center;
+    position: absolute;
+    top: 110px;
+    width: 100%;
+    font-size: 4rem;
+}
+
+body {
+    background-color: #181310;
+}
