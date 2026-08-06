@@ -18,3 +18,48 @@
 body {
     background-color: #181310;
 }
+
+h1 {
+    font-family: 'Plus Jakarta Sans';
+}
+
+h2 {
+    font-size: 40px;
+    font-family: 'Plus Jakarta Sans';
+    color: #F5F2EB;
+    margin-top: 1px;
+    padding-left: 60px;
+}
+
+.hero-caption {
+    position: absolute;
+    top: 300px;
+    right: 30px;
+    color: #181310;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+.two-coloumn{
+    display: grid;
+    margin-top: 10px;
+    padding-left: 60px;
+    gap: 50px;
+    width: 80%;
+}
+
+.info-box{
+    background-color: #F5F2EB;
+    height: 70px;
+    width: 200px;
+    margin-top: 1px;
+    gap: 50px;
+}
+
+.info{
+    margin-top: 1px;
+    font-size: 1em;
+    color: #F5A623;
+}
