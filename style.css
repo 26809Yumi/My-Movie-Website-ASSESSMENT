@@ -151,6 +151,8 @@ body{
 .img-box{
     width: 300px;
     background-color: #ffffff;
+    flex-shrink: 0
+
 }
 
 .img-box img{
@@ -163,4 +165,6 @@ body{
     background-color: #ffffff;
     color: #000000;
     padding: 20px;
+    object-fit: cover;
+    display: block;
 }
