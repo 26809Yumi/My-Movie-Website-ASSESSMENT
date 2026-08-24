@@ -83,26 +83,10 @@ h2 span{
     cursor: pointer;
 }
 
-.recommendations-box{
-    width: 90%;
-    margin: 40px auto;
-}
-
-.genre{
-    margin-bottom: 50px;
-}
-
 .row-grid{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
-}
-
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif; 
 }
 
 body{
@@ -168,3 +152,34 @@ body{
     object-fit: cover;
     display: block;
 }
+
+
+
+
+.info-card {
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 2px;
+    overflow: hidden;
+    height: 160px;
+}
+
+.info-card img {
+    width: 35%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.info-card-info {
+    width: 65%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-card-info h3 {
+    color: #F8A720;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
