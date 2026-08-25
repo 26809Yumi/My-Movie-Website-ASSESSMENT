@@ -161,12 +161,13 @@ body{
     background-color: #ffffff;
     border-radius: 2px;
     overflow: hidden;
-    height: 160px;
+    height: 300px;
 }
 
 .info-card img {
     width: 35%;
     height: 100%;
+    object-fit: cover;
     object-fit: cover;
 }
 
