@@ -83,6 +83,17 @@ h2 span{
     cursor: pointer;
 }
 
+.card:hover{
+    background: whitesmoke;
+    border-style: double;
+    border-width: 10px;
+    border-color: #F8A720;
+    height: 480px;
+    width: 280px;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
 .row-grid{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -189,3 +200,4 @@ body{
 p{
     color:#000000
 }
+
