@@ -7,7 +7,7 @@
 
 body{
     background-color: #121212;
-    color: #ffffff;
+    color: #000000;
 }
 
 .hero{
@@ -156,7 +156,7 @@ body{
 
 
 
-.info-card {
+.info-card{
     display: flex;
     height: 3s00px;
     width: 100%;
@@ -165,7 +165,7 @@ body{
     background-color: #ffffff;
 }
 
-.info-card img {
+.info-card img{
     width: 40%;
     height: 100%;
     object-fit: cover;
@@ -173,16 +173,19 @@ body{
     flex-shrink: 0;
 }
 
-.info-card-info {
+.info-card-info{
     width: 65%;
     padding: 15px;
     display: flex;
     flex-direction: column;
 }
 
-.info-card-info h3 {
+.info-card-info h3{
     color: #F8A720;
     font-size: 1rem;
     font-weight: bold;
 }
 
+p{
+    color:#000000
+}
