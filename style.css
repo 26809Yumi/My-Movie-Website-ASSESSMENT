@@ -1,8 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap")
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif; 
+    font-family: Merriweather; 
 }
 
 body{
@@ -86,9 +88,9 @@ h2 span{
 .card:hover{
     background: whitesmoke;
     border-style: double;
-    border-width: 10px;
+    border-width: px;
     border-color: #F8A720;
-    height: 415px;
+    height: 425px;
     width: 250px;
     text-decoration: underline;
     font-weight: bolder;
