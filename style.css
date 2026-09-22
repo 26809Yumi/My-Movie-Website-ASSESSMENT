@@ -90,8 +90,8 @@ h2 span{
     border-style: double;
     border-width: 5px;
     border-color: #F8A720;
-    height: 425px;
-    width: 250px;
+    height: 100%;
+    width: 105%;
     text-decoration: underline;
     font-weight: bolder;
 }
